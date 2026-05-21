@@ -1,0 +1,8 @@
+[project]
+name = "no-leaks"
+version = "0.1.0"
+description = "Pre-commit secret scanner devtool"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest"]
